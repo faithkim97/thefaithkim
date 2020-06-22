@@ -3,11 +3,12 @@ import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import HomePage from './HomePage';
+import Helmet from 'react-helmet';
 
 function Home() {
     return(
         <div>
-            <HomePage />
+            <HomePage/>
         </div>
     );
 }
@@ -39,6 +40,9 @@ function Projects() {
 function App() {
     return (
         <div>
+            <Helmet>
+                <body style="background-color: pink" />
+            </Helmet>
             <Router>
                 <Route path="/" component={Home} exact />
                 <Route path="/about" component={About} />
