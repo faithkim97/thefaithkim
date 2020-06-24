@@ -3,6 +3,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import TypeWriter from './TypeWriter';
 import Image from 'react-bootstrap/Image';
+import Footer from './Footer';
 
 class HomePage extends Component {
     constructor(props) {
@@ -25,6 +26,7 @@ class HomePage extends Component {
                 <AwesomeButton type="secondary" href="/projects" style={{margin:"5px"}} >Projects</AwesomeButton>
             </div>
             </center>
+            <Footer />
            </div>
         );
 
