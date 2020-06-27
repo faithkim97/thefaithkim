@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .icon {
     width: 50px;
     height: 50px;
@@ -10,12 +12,15 @@
 
 }
 
+#gameFont {
+    font-family: 'Press Start 2P';
+}
+
 .toLeft {
     position:relative;
     animation: toLeft ease 1.5s;
     -webkit-animations: toLeft ease 1.5s;
 }
-
 @keyframes toLeft {
     0% {left: 100%; }
     100% {left: 65%; }
