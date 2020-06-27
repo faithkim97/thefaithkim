@@ -1,5 +1,39 @@
-img {
+.icon {
     width: 50px;
     height: 50px;
 
 }
+
+.fadeIn {
+    -webkit-animations: fadeIn ease 1.5s;
+     animation: fadeIn ease 3.5s;
+
+}
+
+.toLeft {
+    position:relative;
+    animation: toLeft ease 1.5s;
+    -webkit-animations: toLeft ease 1.5s;
+}
+
+@keyframes toLeft {
+    0% {left: 100%; }
+    100% {left: 65%; }
+}
+
+@-webkit-keyframes toLeft {
+    0% {left: 100%; }
+    100% {left: 65%; }
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.0;}
+    100% {opacity:1.0;}
+}
+
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+

@@ -4,6 +4,7 @@ import { AwesomeButton } from "react-awesome-button";
 import "react-awesome-button/dist/styles.css";
 import HomePage from './HomePage';
 import Helmet from 'react-helmet';
+import AboutPage from './AboutPage';
 
 function Home() {
     return(
@@ -16,7 +17,7 @@ function Home() {
 function About() {
     return (
         <div>
-            <h1>ABOOOOT</h1>
+            <AboutPage />
         </div>
     )
 }
