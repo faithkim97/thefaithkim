@@ -16,7 +16,7 @@ function Home() {
 
 function About() {
     return (
-        <div>
+        <div style={{position:"relative", bottom:"100px"}}>
             <AboutPage />
         </div>
     )

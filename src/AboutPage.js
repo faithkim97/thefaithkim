@@ -8,11 +8,12 @@ class AboutPage extends Component {
     constructor(props) {
         super(props);
     }
+//                <h1 className="fadeIn" id="gameFont" style={{position:"absolute", bottom:"500px"}}>About Faith</h1>
 
     render() {
         return(
-            <div className="typewriter" >
-                <h1 className="fadeIn" id="gameFont" style={{position:"absolute", bottom:"500px"}}>About Faith</h1>
+            <div>
+                <TypeWriter text="About Faith" bottom={-200} />
             <div style={{textAlign:"center"}}>
                 <AboutDescription />
             </div>
