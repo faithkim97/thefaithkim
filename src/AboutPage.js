@@ -21,10 +21,9 @@ class AboutPage extends Component {
                 <TypeWriter text="Featured In" />
             </div>
                 <Articles />
-            <div style={{position:"absolute", bottom:"-30%", left:"50%", width:"auto", height: "auto"}}>
+            <div style={{ left:"50%", width:"auto", height: "auto"}}>
             <Footer />
             </div>
-
              </div>
 
         );

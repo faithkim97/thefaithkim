@@ -14,9 +14,21 @@ function Articles(props) {
             <div style={{display:"block", position:"relative", left:"-5%"}} >
                 <Container>
                     <Row>
-                        <Col md ="auto"><img id="featured" src={SmithCollegeArticle} /></Col>
-                        <Col md="auto"><img id="featured" src={GamingLabArticle} /></Col>
-                        <Col sx = "auto"><img id="featured" src={ReigningIt} /></Col>
+                        <Col md ="auto">
+                             <a href="https://www.smith.edu/profile/faith-kim">
+                                 <img id="featured" src={SmithCollegeArticle} />
+                             </a>
+                        </Col>
+                        <Col md="auto">
+                            <a href="https://www.smith.edu/about-smith/news/digital-storytelling?fbclid=IwAR2HaFyUzPJ5MuxiUMksIuOUCU5rfB6k3zL8ii2PTWrxqz88mlI5MQM89Is">
+                                 <img id="featured" src={GamingLabArticle} />
+                            </a>
+                         </Col>
+                        <Col sx = "auto">
+                            <a href="https://medium.com/@ReigningIt/women-who-reign-faith-kim-1360a26c5c3b">
+                        <img id="featured" src={ReigningIt} />
+                          </a>
+                        </Col>
                     </Row>
                 </Container>
              </div>

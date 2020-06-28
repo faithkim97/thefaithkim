@@ -9,6 +9,7 @@ function AboutDescription(props) {
             <p>Name: Faith Kim</p>
             <p>Pronouns:She/her</p>
             <p>Education: Smith College Class of 2019</p>
+            <p><a href="https://medium.com/@thefaithkim">Medium Blog</a></p>
             <p>Hi! My name is Faith, and I currently work as a backend software engineer.
              I graduated from Smith College in May 2019 with a B.A. in Computer Science and a minor
              in Mathematics.
