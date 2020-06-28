@@ -21,7 +21,7 @@ class AboutPage extends Component {
             <div style={{textAlign:"center"}}>
                 <AboutDescription />
             </div>
-            <div style={{position:"relative", bottom:-220}}>
+            <div style={{position:"relative", bottom:-220, textAlign:"center"}}>
                 <TypeWriter text="Featured In" />
             </div>
                 <Articles />

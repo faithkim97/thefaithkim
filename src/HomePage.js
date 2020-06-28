@@ -21,8 +21,7 @@ class HomePage extends Component {
             <center>
             <TypeWriter text="Faith Kim" />
             <div>
-                <AwesomeButton type="secondary" href="/about" style={{margin:"5px"}}>About</AwesomeButton>
-                <AwesomeButton type="secondary" href="/resume" style={{margin:"5px"}}>Resume</AwesomeButton>
+                <AwesomeButton type="secondary" href="/about" style={{margin:"20px", width:"110px"}}>About</AwesomeButton>
                 <AwesomeButton type="secondary" href="/projects" style={{margin:"5px"}} >Projects</AwesomeButton>
             </div>
             </center>
