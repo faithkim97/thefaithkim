@@ -17,6 +17,24 @@
     font-family: 'Press Start 2P';
 }
 
+#featured {
+        float: left;
+        width:  400px;
+        height: auto;
+        background-size: cover;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        border-bottom-left-radius:25px;
+        border-bottom-right-radius:25px;
+        border: 2px solid #ffffff;
+        padding: 5px 40px;
+        background: #ffffff;
+}
+
+#featured:hover {
+    border-color:yellow;
+}
+
 p {
     font-family: 'Crete Round';
     position:relative;
