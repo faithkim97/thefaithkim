@@ -5,7 +5,7 @@ function AboutDescription(props) {
     return (
         <div className="fadeIn" style={{ bottom: "-200px", display:"inline-block", backgroundColor:"white", height:"auto", width:"100%", paddingBottom:"200px", paddingTop:"100px", position:"relative", overflow:"auto"}}>
             <img className="toLeft" src={ProfilePic} style={{display:"block",position:"relative", left:"65%", bottom:"-5%", width:"30%", height:"auto", maxWidth:"100%", maxHeight:"100%"}} />
-           <div style={{ display:"block", position: "absolute", top:"4%", left:"5%", margin:0, padding:0, width:"50%"}}>
+           <div style={{ display:"block", position: "absolute", top:"10%", left:"5%", margin:0, padding:0, width:"50%"}}>
             <p>Name: Faith Kim</p>
             <p>Pronouns:She/her</p>
             <p>Education: Smith College Class of 2019</p>
