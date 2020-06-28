@@ -5,6 +5,7 @@ import './TextStyle.css';
 import TypeWriter from './TypeWriter';
 import Footer from './Footer';
 import Articles from './Articles';
+import SocialMediaIcon from './SocialMediaIcon';
 
 class AboutPage extends Component {
     constructor(props) {
@@ -13,6 +14,9 @@ class AboutPage extends Component {
     render() {
         return(
             <div>
+                <div style={{position:"absolute", top:"200px", right:"0%"}}>
+                <SocialMediaIcon url="/" network="home" />
+                </div>
                 <TypeWriter text="About Faith" bottom={-200} />
             <div style={{textAlign:"center"}}>
                 <AboutDescription />
