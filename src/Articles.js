@@ -10,8 +10,8 @@ import GamingLabArticle from './gaminglab.png';
 
 function Articles(props) {
     return (
-        <div className="fadeIn" style={{ bottom: "-200px", display:"inline-block", height:"auto", width:"100%", paddingBottom:"100px", paddingTop:"100px", position:"relative", overflow:"hidden"}}>
-            <div style={{display:"block", position:"relative", left:"-5%"}} >
+        <div className="fadeIn" style={{ bottom: "-200px", display:"inline-block", height:"auto", width:"100%", paddingBottom:"100px", paddingTop:"10px", position:"relative", overflow:"hidden"}}>
+            <div style={{display:"block", marginLeft:"-3%"}} >
                 <Container>
                     <Row>
                         <Col md ="auto">
