@@ -5,6 +5,7 @@ import "react-awesome-button/dist/styles.css";
 import HomePage from './HomePage';
 import Helmet from 'react-helmet';
 import AboutPage from './AboutPage';
+import ProjectsPage from './ProjectsPage';
 
 function Home() {
     return(
@@ -22,18 +23,10 @@ function About() {
     )
 }
 
-function Resume() {
-    return(
-        <div>
-            <h1>Resume</h1>
-        </div>
-    );
-}
-
 function Projects() {
     return(
         <div>
-            <h1>Projects</h1>
+        <ProjectsPage />
         </div>
     );
 }
@@ -47,7 +40,6 @@ function App() {
             <Router>
                 <Route path="/" component={Home} exact />
                 <Route path="/about" component={About} />
-                <Route path="/resume" component={Resume} />
                 <Route path="/projects" component={Projects} />
             </Router>
         </div>

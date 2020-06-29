@@ -43,6 +43,12 @@ p {
     color:gray;
 }
 
+.toRight {
+    position:relative;
+    animation: toRight ease 1.5s;
+    -webkit-animations: toRight ease 1.5s;
+}
+
 .toLeft {
     position:relative;
     animation: toLeft ease 1.5s;
@@ -57,6 +63,17 @@ p {
     0% {left: 100%; }
     100% {left: 65%; }
 }
+@keyframes toRight {
+    0% {left: 0%; }
+    100% {left: 1%; }
+}
+
+@-webkit-keyframes toRight {
+    0% {left: 0%; }
+    100% {left: 1%; }
+}
+
+
 
 @keyframes fadeIn {
     0% {opacity: 0.0;}

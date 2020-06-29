@@ -4,7 +4,7 @@ import './SocialMediaIcon.css';
 function AboutDescription(props) {
     return (
         <div className="fadeIn" style={{ bottom: "-200px", display:"inline-block", backgroundColor:"white",  width:"100%", paddingBottom:"200px", paddingTop:"100px", position:"relative", overflow:"auto", height:"auto"}}>
-            <img className="toLeft" src={ProfilePic} style={{display:"block",position:"sticky", position:"-webkit-sticky",top:0, left:"65%", bottom:"-5%", width:"30%", height:"auto", maxWidth:"100%", maxHeight:"100%"}} />
+            <img className="toLeft" src={ProfilePic} style={{display:"block",position:"relative",  left:"65%", bottom:"-5%", width:"30%", height:"auto", maxWidth:"100%", maxHeight:"100%"}} />
            <div style={{ display:"block", position: "absolute", top:"10%", left:"5%", margin:0, padding:0, width:"50%"}}>
             <p>Name: Faith Kim</p>
             <p>Pronouns:She/her</p>
