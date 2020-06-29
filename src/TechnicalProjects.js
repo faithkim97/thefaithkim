@@ -17,7 +17,7 @@ function TechnicalProjects() {
                             to support settling specific products, maintain our current applications through contributing to a production support rotation, and I am also
                             responsible for supporting deployments of new features for our applications.
                         </p></Col>
-                        <Col><img src={CME} style={{width:"70%", height:"auto"}} /></Col>
+                        <Col><img src={CME} style={{width:"100%", height:"auto"}} /></Col>
                     </Row>
                  </Container>
             </div>
