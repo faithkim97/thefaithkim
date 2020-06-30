@@ -6,6 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap';
 import TypeWriter from './TypeWriter';
 import Footer from './Footer';
 import SocialMediaIcon from './SocialMediaIcon';
+import CurrentProfession from './CurrentProfession';
 import TechnicalProjects from './TechnicalProjects';
 
 class ProjectsPage extends Component {
@@ -23,6 +24,7 @@ class ProjectsPage extends Component {
                 </div>
                 <div className="fadeIn" style={{ bottom: "-50px", backgroundColor:"white",  width:"100%", paddingBottom:"200px", paddingTop:"100px", position:"relative",  overflow:"auto",
                 height:"2000px"}}>
+                    <CurrentProfession />
                     <TechnicalProjects />
                 </div>
             </div>
