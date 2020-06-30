@@ -3,6 +3,7 @@ import LinkedIn from './linkedin.svg';
 import Twitter from './twitter.svg';
 import Instagram from './instagram.svg';
 import HomeIcon from './homeIcon.svg';
+import Github from './github.svg';
 import './SocialMediaIcon.css';
 
 function SocialMediaIcon(props) {
@@ -14,6 +15,8 @@ function SocialMediaIcon(props) {
         return (<a href={props.url}><img className="icon" src={Instagram} /></a>)
    } else if (props.network=="home") {
        return(<a href={props.url}><img className="icon" src={HomeIcon} /> </a>);
+   } else if (props.network=="github") {
+     return (<a href={props.url}><img className="icon" src={Github} /> </a>);
    }
 }
 

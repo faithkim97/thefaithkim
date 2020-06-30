@@ -46,12 +46,13 @@ p {
 #s {
      font-family: 'Crete Round';
         position:relative;
-        font-size: calc(11px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+        font-size: calc(10px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
         text-align:left;
         color:gray;
 }
 
-h4 {
+
+h2,h3,h4 {
     font-family: 'Crete Round';
 }
 
