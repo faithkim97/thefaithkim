@@ -8,6 +8,7 @@ import Footer from './Footer';
 import SocialMediaIcon from './SocialMediaIcon';
 import CurrentProfession from './CurrentProfession';
 import TechnicalProjects from './TechnicalProjects';
+import OtherWorks from './OtherWorks';
 
 class ProjectsPage extends Component {
     constructor(props) {
@@ -26,6 +27,9 @@ class ProjectsPage extends Component {
                 height:"2000px"}}>
                     <CurrentProfession />
                     <TechnicalProjects />
+                    <div style={{position:"relative", bottom:"-400px"}}>
+                        <OtherWorks />
+                    </div>
                 </div>
             </div>
 
