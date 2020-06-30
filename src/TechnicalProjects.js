@@ -35,7 +35,6 @@ function TechnicalProjects() {
 
          <div style={{position:"relative", bottom:"-200px", left:"1%"}}>
             <h2> 2018 </h2>
-            <Container fluid style={{float:"left", position:"relative", bottom:"-50px"}}>
                <Row>
                    <Col md={8}><img src={EverythingsFine} style={{width:"80%", height:"auto"}} /></Col>
                    <Col md={4}>
@@ -49,11 +48,9 @@ function TechnicalProjects() {
                     <SocialMediaIcon url="https://github.com/faithkim97/aty" network="github" />
                    </Col>
                </Row>
-            </Container>
          </div>
             <div style={{position:"relative", bottom:"-300px", left:"1%"}}>
                      <h2> 2017 </h2>
-                     <Container fluid style={{float:"left", position:"relative", bottom:"-50px"}}>
                         <Row>
                             <Col md={8}>
                             <img src={DeathlessMenu} style={{width:"40%"}} />
@@ -65,7 +62,7 @@ function TechnicalProjects() {
                              <h4>GlowLime Games: Deathless</h4>
                              <p id="s">Team Director: <a href="https://www.linkedin.com/in/siennacornish/">Sienna Cornish</a></p>
                              <p id="s">
-                                <i>Deathless</i> is an ongoing game project developed and directed by Sienna Conish.
+                                <i>Deathless</i> is an ongoing game project developed and directed by Sienna Cornish.
                                 Through her mentorship, I was given the opportunity to learn how to work with an existing codebase and develop features for backend and
                                 front-facing components of the game. I have developed scripts that triggered sound on an event-driven basis, along with developing scripts to support
                                 Wwise audio. I have also added enhancements to the Unity editor to allow for flexible manipulation of different attributes in a component.
@@ -75,7 +72,6 @@ function TechnicalProjects() {
                              <SocialMediaIcon url="https://github.com/faithkim97/Deathless" network="github" />
                             </Col>
                         </Row>
-                     </Container>
                   </div>
      </div>
     );
