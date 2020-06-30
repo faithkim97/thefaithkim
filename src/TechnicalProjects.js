@@ -23,7 +23,7 @@ function TechnicalProjects() {
                 <p id="s">Dev Tools: Spring, PostGreSQL, H2, Heroku, ReactJS, Python </p>
                 <p id="s"><a href="http://gaminglabatsmith.herokuapp.com/home">Click here to view the website </a></p>
                 <p id ="s"><a href="https://medium.com/@thefaithkim/csc-400-creating-the-gaming-lab-search-engine-spring-2019-e5041140a5e0">Click here to view the technical blog post</a></p>
-
+                <SocialMediaIcon url="https://github.com/faithkim97/gamingLab" network="github" />
                </Col>
            </Row>
       </div>
@@ -41,6 +41,7 @@ function TechnicalProjects() {
                     <p id="s"><a href="https://paradoxproduction.itch.io/everythings-fine">Download the Game Here</a></p>
                     <p id="s">Watch gameplays: <a href="https://www.youtube.com/watch?v=9EyGN39U_DY">Part 1</a>,
                     <a href="https://www.youtube.com/watch?v=uPdJTHyRJ8A">Part 2</a></p>
+                    <SocialMediaIcon url="https://github.com/faithkim97/aty" network="github" />
                    </Col>
                </Row>
             </Container>
