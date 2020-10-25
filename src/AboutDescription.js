@@ -16,7 +16,7 @@ function AboutDescription(props) {
              </p>
               <p>
                 I mainly use Java and Spring in my day-to-day to life, but I'm also interested in
-                learning more about frontend frameworks such as React (currently using React to create this website) and
+                learning more about frontend frameworks/libraries such as React (currently using React to create this website) and
                 hone my skills from a full stack standpoint. I also like to develop video games using Unity.
               </p>
               <p>
