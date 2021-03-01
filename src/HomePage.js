@@ -23,6 +23,8 @@ class HomePage extends Component {
             <div>
                 <AwesomeButton type="secondary" href="/about" style={{margin:"20px", width:"110px"}}>About</AwesomeButton>
                 <AwesomeButton type="secondary" href="/projects" style={{margin:"5px"}} >Projects</AwesomeButton>
+                <AwesomeButton type="secondary" href="https://www.amazon.com/Piece-Java-Introduction-Programming/dp/B08WPG53Z6/ref=sr_1_1?dchild=1&keywords=a+piece+of+java&qid=1614624168&sr=8-1"
+                style = {{margin: "15px"}}> Buy My Book </AwesomeButton>
             </div>
             </center>
             <Footer />
