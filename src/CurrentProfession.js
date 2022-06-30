@@ -11,8 +11,12 @@ function CurrentProfession() {
                 <h1 className="toRight" style={{left:"1%", fontFamily:"Crete Round"}}>Technical Work</h1>
                 <Container fluid style={{ position:"relative",float:"left", bottom:"-30px"}}>
                     <Row>
-                        <Col md={8} ><p>I currently work as a backend software engineer for CME Group.
-                            I work in the Pricing and Trade Services division supporting applications that calculate settlement prices for a variety of products/contracts, where
+                        <Col md={8} ><p>I currently work as a fullstack engineer at CaptivateIQ. I work on creating new features to help customers calculate sales commissions,
+                        working on improving the existing UI and creating new UI features, building new API's, and optimizing the performance of our application. Our tech stack is Django, React, and PostgreSQL.
+                        </p>
+                        <p>
+                         Previously, I worked as a backend software engineer for CME Group.
+                            I worked in the Trade Execution division supporting applications that calculate settlement prices for a variety of products/contracts, where
                             we mainly use Java and Spring for our backend framework, Oracle for database. I work closely with our business team to develop new settlement algorithms, support app maintenance in production environment, and deploy builds with new features to enhance user experience and settlement processes.
                         </p></Col>
                         <Col><img src={CME} style={{width:"100%", height:"auto"}} /></Col>

@@ -10,12 +10,27 @@ import DeathlessGif2 from './deathless2.gif';
 import DeathlessGif3 from './deathless3.gif';
 import DeathlessGif4 from './deathless4.gif';
 import DeathlessGif5 from './deathless5.gif';
+import PieceofJava from './pieceofjava.JPG';
 
 
 function TechnicalProjects() {
     return(
         <div>
         <div style={{position:"relative", bottom:"-100px", left:"1%"}}>
+          <h2>2021</h2>
+            <Row>
+                <Col md={8}><img src={PieceofJava} style={{width:"65%", height:"auto",  paddingLeft: "100px"}} /></Col>
+                <Col md={4}>
+                 <h4>A Piece of Java: Intro to Programming</h4>
+                 <p id="s"><i>A Piece of Java</i> is an introductory book that teaches readers how to code in Java. It is intended to be a
+                 friendly guide to readers who are just starting out in programming. I wanted to take my passion for coding and teaching to the next level
+                 by writing this book. It is currently available on Amazon and Kindle. It was an incredibly fun process writing the book and drawing the book cover!
+                 </p>
+                 <p id="s">Tools: Kindle Create, Java, KDP (Kindle Direct Publishing), Procreate</p>
+                 <p id="s"> <a href="https://www.amazon.com/Piece-Java-Introduction-Programming/dp/B08WPG53Z6/ref=sr_1_1?dchild=1&keywords=a+piece+of+java&qid=1614624168&sr=8-1">Click here to view/purchase the book</a></p>
+                 <p id ="s"><a href="https://medium.com/@thefaithkim/i-published-a-book-and-heres-my-journey-43dbeb10251e">Click here to view the blog post</a></p>
+                </Col>
+            </Row>
          <h2>2019</h2>
            <Row>
                <Col md={8}><img src={GamingLabWebsite} style={{width:"80%", height:"auto"}} /></Col>

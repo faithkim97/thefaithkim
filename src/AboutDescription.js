@@ -10,14 +10,14 @@ function AboutDescription(props) {
             <p>Pronouns:She/her</p>
             <p>Education: Smith College Class of 2019</p>
             <p><a href="https://medium.com/@thefaithkim">Medium Blog</a></p>
-            <p>Hi! My name is Faith, and I currently work as a backend software engineer.
+            <p>Hi! My name is Faith, and I am a full stack software engineer with a background in backend.
              I graduated from Smith College in May 2019 with a B.A. in Computer Science and a minor
              in Mathematics.
              </p>
               <p>
-                I mainly use Java and Spring in my day-to-day to life, but I'm also interested in
-                learning more about frontend frameworks/libraries such as React (currently using React to create this website) and
-                hone my skills from a full stack standpoint. I also like to develop video games using Unity.
+                I first started out using Java and Spring in my professional career, and now I'm using
+                Django (Python) and ReactJS with Typescript in my day-to-day. I'm also interested in game development and have made
+                games for school projects in the past.
               </p>
               <p>
                 My true passion lies in mentorship for womxn of color in the tech industry. I have worked as the Vice President
